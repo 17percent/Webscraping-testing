@@ -1,0 +1,19 @@
+{
+  "name": "ccbr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "eslint": "^9.4.0"
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
