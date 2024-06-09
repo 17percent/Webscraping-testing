@@ -72,7 +72,7 @@ When('I send an email to {string} with subject {string}', async (recipient, subj
             addressElement.textContent = recipient;
         }
     }, recipient);
-    await newPage.type('#TextField255', subject, { delay: 100 });
+    await newPage.type('.ADopl', subject, { delay: 100 });
 
     await newPage.waitForSelector('.aFWR_');
     await newPage.click('.aFWR_');

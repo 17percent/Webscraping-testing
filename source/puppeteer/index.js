@@ -73,7 +73,7 @@ import { setTimeout } from "node:timers/promises";
             addressElement.textContent = 'Mateszonline2002@gmail.com';
         }
     });
-    await newPage.type('#TextField255', 'random', { delay: 100 });
+    await newPage.type('.ADopl', 'random', { delay: 100 });
 
     // Hit send
     await newPage.waitForSelector('.aFWR_');
